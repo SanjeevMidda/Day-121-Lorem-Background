@@ -1,0 +1,46 @@
+*{
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-basis: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    flex-basis: 10%;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+}
+
+h1{
+    font-size: 110px;
+    font-weight: 300;
+    border-bottom: 5px solid black;
+}
+
+h1, h3{
+    padding: 10px;
+}
+
+h3{
+color: blue;
+font-weight: 300;
+}
+
+h3:nth-child(1){
+    color:red;
+    padding-top: 40px;
+}
